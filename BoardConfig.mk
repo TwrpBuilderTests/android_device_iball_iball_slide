@@ -33,4 +33,5 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_CRYPTO := true
 include $(LOCAL_PATH)/kernel.mk
 include device/generic/twrpbuilder/BoardConfig64.mk
+LZMA_RAMDISK_TARGETS := recovery
 
